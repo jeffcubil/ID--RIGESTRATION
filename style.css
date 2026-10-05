@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #333;
+}
+
+.container {
+    width: 850px;
+    margin: 20px auto;
+    background: white;
+    padding: 0 32px 35px;
+    box-shadow: 0 0 5px #aaa;
+}
+
+.top-bar {
+    height: 10px;
+    background: #06345f;
+    margin: 0 -32px 25px;
+}
+
+h2 {
+    font-size: 17px;
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #ddd;
+    margin-bottom: 25px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.required,
+.notice,
+.instruction {
+    color: #a52b2b;
+}
+
+.required {
+    font-weight: bold;
+}
+
+.notice {
+    margin-left: 0;
+}
+
+.instruction {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.form-row {
+    display: flex;
+    align-items: center;
+    margin: 6px 0;
+}
+
+.form-row label {
+    width: 300px;
+    font-weight: bold;
+}
+
+.form-row label span,
+.address-title span {
+    color: #a52b2b;
+}
+
+.form-row input {
+    width: 255px;
+    height: 31px;
+    border: 1px solid #aaa;
+    padding: 5px 8px;
+    font-size: 13px;
+}
+
+.form-row input:focus {
+    border: 2px solid #468ac0;
+    outline: none;
+}
+
+.address-title {
+    margin-top: 15px;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.address input {
+    width: 375px;
+}
+
+.location {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.location label {
+    margin-right: 20px;
+}
+
+.location input {
+    vertical-align: middle;
+}
+
+button {
+    margin-top: 25px;
+    padding: 10px 25px;
+    border: none;
+    background: #174f7b;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #0d3b5d;
+}
+
+button.reset {
+    background: #777;
+    margin-left: 8px;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 12px;
+    display: none;
+    border: 1px solid #aaa;
+    background: #f5f5f5;
+}
